@@ -1,0 +1,238 @@
+/* General Styles */
+body {
+    background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14f8c8d0'); /* Replace with your chosen background image URL */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #283593; /* Change this color to your preferred one */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    color: #007BFF;
+    font-size: 1.8rem;
+}
+
+article p {
+    margin: 0 0 15px;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+ul {
+    margin: 0 0 15px;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Contact List */
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.contact-list i {
+    margin-right: 10px;
+    color: #007BFF;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+
+    article h2 {
+        font-size: 1.6rem;
+    }
+
+    article p {
+        font-size: 0.95rem;
+    }
+}
+
+/* Background Image for the Entire Page */
+body {
+    background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff; /* Adjust text color for better visibility */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Web Development Section */
+  .web-development {
+    background-image: url('https://images.unsplash.com/photo-1593642634443-44adaa06623a');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* Programming Section */
+/* Programming Section */
+.programming {
+    background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  
+  /* Networking Section */
+  .networking {
+    background-image: url('https://images.unsplash.com/photo-1510511459019-5dda7724fd87');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* Tech Trends Section */
+  .tech-trends {
+    background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* Personal Projects Section */
+  .personal-projects {
+    background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* General Styles */
+  header, footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+  }
+  
+  h1, h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  p, ul {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  ul.contact-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul.contact-list li {
+    margin: 5px 0;
+  }
+  
+  ul.contact-list a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  ul.contact-list a:hover {
+    text-decoration: underline;
+  }
+  
+  a {
+    color: #00bfff;
+  }
+  
+  a:hover {
+    color: #ffffff;
+  }
+  @media (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  p{
+    background-color: black;
+  }
+  
+    
